@@ -1,0 +1,406 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: rgb(63, 59, 59);
+  font-weight: bold;
+}
+#flex {
+  width: 1000px;
+}
+#container {
+  position: fixed;
+  margin-top: 15px;
+  padding-right: 30px;
+  margin-left: 30px;
+  width: 160px;
+  height: 40px;
+  border-right: 1px solid rgb(197, 189, 189);
+}
+#thunder {
+  position: fixed;
+  margin-top: 10px;
+  margin-left: 250px;
+  padding-right: 100px;
+}
+
+#thunder p {
+  font-weight: bold;
+  position: absolute;
+  margin: 5px;
+  color: rgb(63, 59, 59);
+}
+#user {
+  position: fixed;
+  display: flex;
+  width: 500px;
+  height: 65px;
+  align-items: center;
+  margin-left: 800px;
+  justify-content: space-around;
+}
+#user i {
+  margin-right: 10px;
+}
+.offer {
+  width: 100px;
+  text-align: center;
+}
+#user .offer img {
+  position: absolute;
+  margin-top: 1px;
+  margin-left: -25px;
+}
+#user .app {
+  padding: 10px 5px;
+  background-color: rgb(230, 237, 243);
+  border-radius: 10px;
+  border: 1px solid transparent;
+}
+#user .app:hover {
+  background-color: rgb(222, 224, 224);
+}
+.dot:hover {
+  border-bottom: 1px dashed black;
+}
+#category {
+  width: 1300px;
+  position: fixed;
+  top: 65px;
+  z-index: 4;
+  border-top: 1px solid rgb(197, 189, 189);
+  border-bottom: 1px solid rgb(197, 189, 189);
+  color: rgb(63, 59, 59);
+  display: flex;
+}
+#category .u1 {
+  display: flex;
+  margin-left: 300px;
+  justify-content: space-around;
+  height: 35px;
+  width: 700px;
+  align-items: center;
+  font-size: 15px;
+}
+#product {
+  font-weight: bolder;
+  color: rgb(63, 59, 59);
+  border: 1px solid white;
+  width: 1300px;
+  margin-top: 96px;
+  text-align: center;
+}
+#p1 {
+  margin-left: 50px;
+  margin-top: 50px;
+  padding-bottom: -20px;
+  padding-right: 650px;
+  font-size: 21px;
+  font-family: "Roboto", sans-serif;
+}
+#p1 button {
+  position: absolute;
+  margin-right: 300px;
+}
+#p2 {
+  position: absolute;
+  margin-left: 800px;
+  font-weight: bold;
+  font-family: "Times New Roman";
+  color: rgb(52, 51, 51);
+  padding-bottom: 50px;
+}
+#p2 a {
+  color: rgb(30, 133, 133);
+  font-weight: bold;
+  font-size: small;
+  font-family: serif;
+}
+#search {
+  border: 1px solid rgb(209, 205, 205);
+  box-shadow: 2px 2px 10px rgb(230, 221, 221);
+  margin-top: 40px;
+  width: 800px;
+  padding: 17px;
+  padding-left: 50px;
+  border-radius: 40px;
+}
+#sp {
+  position: absolute;
+  margin-top: 57px;
+  margin-left: 25px;
+}
+#products {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  background-color: white;
+  justify-content: space-around;
+  padding-top: 40px;
+  display: flex;
+  width: 1300px;
+  height: 150px;
+}
+#products img {
+  padding-bottom: 5px;
+  width: 90px;
+  height: 90px;
+  border-bottom: 1px solid lightgray;
+}
+.flat {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: smaller;
+  color: rgb(246, 103, 103);
+}
+#medicine {
+  width: 130px;
+  height: 150px;
+}
+#medi:hover {
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px rgb(108, 107, 107);
+}
+#labtest {
+  width: 120px;
+  height: 150px;
+}
+#lab:hover {
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px rgb(108, 107, 107);
+}
+#healthcare {
+  width: 130px;
+  height: 150px;
+}
+#health:hover {
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px rgb(108, 107, 107);
+}
+#healthblogs {
+  width: 130px;
+  height: 150px;
+}
+#blog:hover {
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px rgb(108, 107, 107);
+}
+#plus2 {
+  width: 130px;
+  height: 150px;
+}
+#plus21:hover {
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px rgb(108, 107, 107);
+}
+#offers2 {
+  width: 130px;
+  height: 150px;
+}
+#off:hover {
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px rgb(108, 107, 107);
+}
+#valuestore {
+  width: 130px;
+  height: 150px;
+}
+#val:hover {
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px rgb(108, 107, 107);
+}
+#slide {
+  display: flex;
+  background-color: rgb(251, 249, 249);
+  border: 1px solid rgb(249, 246, 246);
+  width: 1300px;
+  height: 340px;
+  overflow: hidden;
+}
+@keyframes slide {
+  0% {
+    top: 0px;
+    left: 0px;
+  }
+  20% {
+    left: 2px;
+  }
+  40% {
+    left: -700px;
+  }
+  60% {
+    left: -1400px;
+  }
+  80% {
+    left: -1800px;
+  }
+  100% {
+    left: -2700px;
+  }
+}
+
+#slide a {
+  border: 2px solid white;
+  position: relative;
+  animation: slide 13s infinite;
+  margin: 10px;
+}
+#slide a img {
+  border-radius: 20px;
+  background-size: cover;
+}
+#power {
+  border: 1px solid white;
+  width: 1300px;
+  height: 380px;
+}
+.p3 {
+  margin-top: 50px;
+  font-size: xx-large;
+  font-weight: 200px;
+}
+.p4 {
+  font-size: x-large;
+  color: rgb(45, 42, 42);
+}
+.p4 img {
+  width: 100px;
+}
+.images {
+  width: 100%;
+}
+.images img {
+  display: inline;
+  margin-top: 30px;
+  width: 170px;
+  height: 170px;
+  padding-left: 10px;
+}
+#footer {
+  width: 1300px;
+  height: 800px;
+  background-color: rgb(229, 244, 240);
+}
+#ul1 {
+  padding-top: 60px;
+  margin-left: 30px;
+}
+#ul1 h3 {
+  padding-bottom: 20px;
+}
+#ul1 li {
+  padding-bottom: 10px;
+}
+#ul2 {
+  padding-top: 20px;
+  margin-left: 30px;
+}
+#ul2 h3 {
+  padding-bottom: 20px;
+}
+#ul2 li {
+  padding-bottom: 10px;
+}
+#ul3 {
+  margin-top: -370px;
+  margin-left: 400px;
+}
+#ul3 h3 {
+  padding-bottom: 20px;
+}
+#ul3 li {
+  padding-bottom: 10px;
+}
+#ul4 {
+  margin-top: -510px;
+  margin-left: 750px;
+}
+#ul4 h3 {
+  padding-bottom: 20px;
+}
+#ul4 li {
+  padding-bottom: 10px;
+}
+#ul5 {
+  margin-top: 20px;
+  margin-left: 750px;
+}
+#ul5 h3 {
+  padding-bottom: 20px;
+}
+#ul5 li {
+  padding-bottom: 10px;
+}
+#ul6 {
+  margin-top: -460px;
+  margin-left: 1050px;
+}
+#ul6 h3 {
+  padding-bottom: 20px;
+}
+#ul6 i {
+  padding-left: 20px;
+  margin-left: -10px;
+}
+#ul7 {
+  margin-top: 500px;
+  margin-left: 50px;
+}
+#ul7 img {
+  padding: 20px;
+  width: 35px;
+  height: 25px;
+}
+#footer p {
+  margin-left: 1000px;
+  margin-top: -50px;
+}
+#footer a {
+  color: rgb(39, 37, 37);
+  font-family: "Times New Roman";
+  font-weight: 10;
+}
+#whats {
+  cursor: pointer;
+  animation: whatsapp 5s infinite;
+  margin-bottom: 10px;
+  margin-right: 50px;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  background-color: green;
+  width: 200px;
+  border-radius: 20px;
+  height: 30px;
+  text-align: center;
+  padding-top: 12px;
+}
+@keyframes whatsapp {
+  50% {
+    rotate: x 180deg;
+  }
+}
+#whats span {
+  background-color: green;
+  color: white;
+}
+#whats span p {
+  display: inline;
+}

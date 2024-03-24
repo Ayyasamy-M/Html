@@ -1,0 +1,46 @@
+/* #d1{
+    border: 2px solid #000000;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+#d3{
+    width: 600px;
+    height: 300px;
+    border: 2px solid black;
+    top: 1000px;
+    position: absolute;
+}
+.i4{
+    position: absolute;
+    margin-top: 500px;
+}
+#d2 a{
+    border: 2px solid black;
+    display:inline-block;
+    justify-content:space-around;
+}
+ */
+ *{
+    text-decoration: none;
+    list-style: none;
+ }
+ #drop{
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-evenly;
+ }
+ a{
+    border: 2px solid black;
+    display: inline-block ;
+    width: 100px;
+    text-align: center;
+ }
+ #list{
+    position: absolute;
+    display: none;
+ }
+ #drop li:nth-child(1):hover #list{
+    display: block;
+
+ }

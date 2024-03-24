@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .wrapper {
+        overflow: auto;
+      }
+      #leftsidebar {
+        float: none;
+        width: auto;
+      }
+      .menuitem {
+        background: #07c4e6;
+        border: 1px solid #d4d4d4;
+        border-radius: 4px;
+        list-style-type: none;
+        margin: 4px;
+        padding: 2px;
+      }
+
+      @media screen and (min-width: 980px) {
+        #leftsidebar {
+          margin-left: 100px;
+          width: 400px;
+          float: left;
+        }
+        /* p {
+          margin-left: 700px;
+          border: 1px solid black;
+          width: 600px;
+        } */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div id="leftsidebar">
+        <ul id="menulist">
+          <li class="menuitem">Menu-item 1</li>
+          <li class="menuitem">Menu-item 2</li>
+          <li class="menuitem">Menu-item 3</li>
+          <li class="menuitem">Menu-item 4</li>
+          <li class="menuitem">Menu-item 5</li>
+        </ul>
+      </div>
+      <div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+          deleniti placeat ut? Quis accusamus eum soluta ipsum officia! Unde
+          dicta ea ut quam minus aperiam maiores voluptatum libero ipsa eos.
+        </p>
+      </div>
+    </div>
+    <form action="/webpage/college.html">
+      <input type="text" required />
+      <button>submit</button>
+      <input type="password" required />
+      <input type="checkbox" />
+      <input type="radio" />
+      <input type="date" />
+      <input type="email" required />
+      <input type="file" accept=".mp4" />
+    </form>
+    <form action="/dropdown/drop1.html"><button>submit</button></form>
+    <button>submit</button><button>submit</button>
+  </body>
+</html>

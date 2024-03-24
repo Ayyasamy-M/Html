@@ -1,0 +1,35 @@
+#topbar{
+    background-color:lightsalmon;height: 100px;
+}
+#grid{
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+#container{
+    background-color: gray;
+    color: black;
+    padding: 100px;
+}
+#img2{
+    margin-right: 100px;padding-left: 100px;
+}
+#img1{
+    margin-right: 100px;padding-right: 50px;
+    
+width: 100px; height: 600px;}
+
+.b1{
+    margin-right: 200px;text-align: center;
+}
+.b2{
+    margin-left: 200px;
+}
+.b3{
+    margin-left: 300px;
+}
+.b4{
+    margin-left: 300px;
+}
+#ul{
+    text-decoration-line: none;
+}

@@ -1,0 +1,56 @@
+#grid {
+  text-align: center;
+  width: 100%;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: 300px 300px;
+  gap: 5px;
+  padding: 3px;
+  background-color: #058dfc;
+  grid-template-areas:
+    "i1 i2 i2"
+    "i1 i3 i3"
+    "i4 i5 i5";
+}
+#grid div {
+  background-color: rgb(144, 12, 232);
+}
+#grid div iframe {
+  text-align: center;
+}
+#grid div img {
+  width: 300px;
+  align-items: center;
+  height: 150px;
+}
+.i1 {
+  grid-area: i1;
+}
+.i2 {
+  grid-area: i2;
+}
+.i3 {
+  grid-area: i3;
+}
+.i4 {
+  grid-area: i4;
+}
+.i5 {
+  grid-area: i5;
+}
+/*
+.img1 {
+  grid-column: 1 / span 3;
+}
+.img1 img {
+  width: 100%;
+}
+.img4 {
+  grid-row: 2 / span 3;
+}
+.img4 img {
+  width: 100%;
+}
+#img3 img {
+  float: right;
+} */

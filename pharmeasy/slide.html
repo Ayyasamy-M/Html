@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #slide {
+        display: flex;
+        background-color: black;
+        border: 1px solid black;
+        width: 100%;
+        height: 340px;
+        overflow: hidden;
+      }
+      @keyframes slide {
+        0% {
+          top: 0px;
+          left: 0px;
+        }
+        20% {
+          left: 2px;
+        }
+        40% {
+          left: -700px;
+        }
+        60% {
+          left: -1400px;
+        }
+        80% {
+          left: -1800px;
+        }
+        100% {
+          left: -2550px;
+        }
+      }
+
+      #slide img {
+        position: relative;
+        animation: slide 15s infinite;
+        margin: 10px;
+      }
+
+      /*  */
+      /* #slide2 {
+        border: 1px solid black;
+        width: 100%;
+        height: 800px;
+      }
+      .poster1 {
+        margin-top: 160px;
+        border: 1px solid black;
+        width: 400px;
+        height: 400px;
+        animation: life 5s infinite;
+      }
+      @keyframes life {
+        0% {
+          margin-left: -800px;
+          background-image: url(/img/lifestyle.png);
+        }
+        100% {
+          background-image: url(/img/Thyroid.png);
+        }
+      }
+      .poster2 {
+        margin-top: -400px;
+        position: absolute;
+        margin-left: 420px;
+        border: 1px solid black;
+        width: 400px;
+        height: 400px;
+        animation: life1 5s infinite;
+      }
+      @keyframes life1 {
+        0% {
+          margin-left: 800px;
+          background-image: url(/img/covid.png);
+        }
+        100% {
+          background-image: url(/img/Vitamins.png);
+        }
+      }
+      .poster3 {
+        margin-top: -400px;
+        position: absolute;
+        margin-left: 1000px;
+        border: 1px solid black;
+        width: 400px;
+        height: 400px;
+        animation: life2 5s infinite;
+      }
+      @keyframes life2 {
+        0% {
+          background-image: url(/img/covid.png);
+        }
+        100% {
+          background-image: url(/img/Vitamins.png);
+        }
+      } */
+    </style>
+  </head>
+  <body>
+    <div id="slide">
+      <img src="/img/slide1pharmeasy.webp" alt="" width="100%" height="300px" />
+      <img src="/img/slide2pharmeasy.webp" alt="" width="100%" height="300px" />
+      <img src="/img/slide3pharmeasy.webp" alt="" width="100%" height="300px" />
+      <img src="/img/slippernew.webp" alt="" width="100%" height="300px" />
+      <img src="/img/mattress_hp.webp" alt="" width="100%" height="300px" />
+    </div>
+  </body>
+</html>
